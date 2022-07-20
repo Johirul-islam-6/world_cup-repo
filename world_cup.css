@@ -7,6 +7,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+#button,button{
+  cursor: pointer;
+}
 
 /* ---------------------------nsv section start----------------------------------- */
 .nav {
@@ -43,6 +46,7 @@
   transition: all 0.5s ease-out;
   margin-right: 40px;
   border-left: 1px solid red;
+  cursor: pointer;
 }
 .nav ul li:hover {
   color: rgb(255, 255, 255);
@@ -72,6 +76,7 @@
   color: #d4d4d4;
   margin-top: 15px;
   letter-spacing: 1px;
+  cursor: pointer;
 }
 
 /* ---------------------------nsv section end----------------------------------- */
@@ -130,6 +135,7 @@ header {
   text-decoration: none;
   margin-top: 20px;
   font-size: 15px;
+  cursor: pointer;
 }
 
 .main-btn:hover {
@@ -189,6 +195,7 @@ header {
   font-size: 16px;
   letter-spacing: 2px;
   margin-top: 5px;
+  cursor: pointer;
 }
 .text-p {
   padding: 10px 12px;
