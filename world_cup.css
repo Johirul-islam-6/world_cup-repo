@@ -136,6 +136,7 @@ header {
   margin-top: 20px;
   font-size: 15px;
   cursor: pointer;
+  
 }
 
 .main-btn:hover {
@@ -280,8 +281,9 @@ header {
   margin: 1px auto;
   text-align: center;
   font-size: 18px;
-  color: #000;
+  color: rgb(255, 255, 255);
   margin-top: 3%;
+  background-color: rgba(100, 99, 99, 0.655);
 }
 
 .btn:hover {
