@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,100&family=Gentium+Book+Plus:ital@1&family=Poppins:wght@500&family=Rubik:ital,wght@1,500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,100&family=Gentium+Book+Plus:ital@1&family=Poppins:wght@500&family=Rubik:ital,wght@1,500&display=swap");
 
 /* ------------------font--------------- */
-
 
 * {
   margin: 0;
@@ -12,7 +11,7 @@
 /* ---------------------------nsv section start----------------------------------- */
 .nav {
   width: 100%;
-  height: 3rem;
+  height: 3.5rem;
   background-color: rgb(7, 6, 6);
   display: flex;
   justify-content: space-between;
@@ -35,7 +34,7 @@
 .nav ul li {
   display: inline-block;
   border-radius: 2px;
-  padding: 3px 6px;
+  padding: 6px 10px;
   border: none;
   letter-spacing: 0.5px;
   background: linear-gradient(to right, #eb3524 50%, transparent 50%);
@@ -43,9 +42,9 @@
   background-position: right bottom;
   transition: all 0.5s ease-out;
   margin-right: 40px;
+  border-left: 1px solid red;
 }
 .nav ul li:hover {
-
   color: rgb(255, 255, 255);
   background-position: left bottom;
 }
@@ -58,14 +57,14 @@
   padding: 3.5px 6px;
   font-weight: 600;
   transition: all 0.3s ease-out;
-  font-family: 'optima-bold-bold', sans-serif;
+  font-family: "optima-bold-bold", sans-serif;
 }
 .nav ul li a:hover {
   color: rgb(255, 255, 255);
-
 }
 
 /* ---------------------------nsv section end----------------------------------- */
+/* ------------------------------btn-nav----------------------start------- */
 
 /* ================================header start============================= */
 header {
@@ -82,40 +81,38 @@ header {
   background-color: rgba(0, 0, 0, 0.918);
   border-radius: 25px;
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   justify-items: center;
   align-items: center;
   color: #fff;
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 .main-text {
- padding: 0 50px;
+  padding: 0 50px;
 }
-.main-text h1{
+.main-text h1 {
   padding-bottom: 20px;
   font-size: 55px;
   letter-spacing: 0.2px;
   font-weight: 600;
- }
- .main-text h1 span{
+}
+.main-text h1 span {
   color: red;
-  
- }
- .main-text p{
+}
+.main-text p {
   font-size: 18px;
-  
- }
- /* --------------------------------------button section-------------------------- */
- .main-btn{
+}
+/* --------------------------------------button section-------------------------- */
+.main-btn {
   display: inline-block;
   border-radius: 5px;
-  padding: 8px 13px;
+  padding: 15px 13px;
   border: 1px solid #f5f2f2;
   color: #ffffff;
   font-weight: 200;
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  background: linear-gradient(to right,#e81922 50%, transparent 50%);
+  background: linear-gradient(to right, #e81922 50%, transparent 50%);
   background-size: 200% 100%;
   background-position: right bottom;
   transition: all 0.5s ease-out;
@@ -124,37 +121,30 @@ header {
   font-size: 15px;
 }
 
-.main-btn:hover{
+.main-btn:hover {
   color: #fff;
   background-position: left bottom;
 }
 
-
 /* ------Main-img footballars----------------- */
 .main-img {
   padding: 0 10px;
-
- }
- .main-img img{
+}
+.main-img img {
   width: 100%;
   height: 100%;
- }
-
-
-
+}
 
 /* =========================================section start================================= */
-.section01{
+.section01 {
   padding: 0 8%;
-
 }
 .grid-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   padding: 10px 15px;
- grid-column-gap: 15px;
- grid-row-gap: 40px;
-
+  grid-column-gap: 15px;
+  grid-row-gap: 40px;
 }
 .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
@@ -166,53 +156,52 @@ header {
   transition: all 0.5s linear;
 }
 .grid-item:hover {
-  box-shadow: 0px 0px 40px rgba(33,33,33,.2); 
+  box-shadow: 0px 0px 40px rgba(33, 33, 33, 0.2);
 }
 
-.grid-item img{
+.grid-item img {
   width: 100%;
   border-radius: 10px 10px 0 0;
 }
-.grid-item h1{
-color: rgb(255, 255, 255);
-font-weight: 900;
-font-size: 30px;
+.grid-item h1 {
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+  font-size: 30px;
 }
-.table-btn{
+.table-btn {
   padding: 6px 30px;
   border: 1px solid black;
   margin-left: 10px;
-  border-radius: 5px ;
+  border-radius: 5px;
   background-color: #fff;
   font-style: italic;
   font-size: 16px;
   letter-spacing: 2px;
   margin-top: 5px;
 }
-.text-p{
+.text-p {
   padding: 10px 12px;
   font-size: 18px;
-  font-family: 'optima-bold-bold', sans-serif;
+  font-family: "optima-bold-bold", sans-serif;
 }
 
-#clock{
+#clock {
   font-size: 22px;
   margin-left: 10px;
   color: rgb(145, 142, 142);
   padding-left: 12px;
-  
 }
-#comment{
+#comment {
   margin-left: 25px;
   font-size: 25px;
   color: rgb(145, 142, 142);
 }
-.h10{
- font-size: 13px;
- margin-top: 8px;
- padding-bottom: 20px;
+.h10 {
+  font-size: 13px;
+  margin-top: 8px;
+  padding-bottom: 20px;
 }
-#grid-item{
+#grid-item {
   justify-items: center;
   align-items: center;
   display: grid;
@@ -221,9 +210,8 @@ font-size: 30px;
   grid-template-rows: repeat(3, 1fr);
   height: 320px;
   padding-bottom: 40px;
-  
 }
-.btnss{
+.btnss {
   padding: 15px 40px;
   background-color: #ffffff;
   color: rgb(0, 0, 0);
@@ -231,11 +219,8 @@ font-size: 30px;
   font-size: 18px;
   font-weight: 900;
   text-decoration: none;
-  
-
-  
 }
-.btnss2{
+.btnss2 {
   padding: 14px 50px;
   background-color: #ffffff;
   color: rgb(0, 0, 0);
@@ -243,11 +228,9 @@ font-size: 30px;
   font-size: 18px;
   font-weight: 900;
   text-decoration: none;
-
-  
 }
 
-.btnss3{
+.btnss3 {
   padding: 15px 65px;
   color: rgb(177, 25, 25);
   color: rgb(255, 255, 255);
@@ -256,12 +239,8 @@ font-size: 30px;
   font-weight: 600;
   text-decoration: none;
   background-color: #e81922;
-  
-  
-
-  
 }
-.btn{
+.btn {
   display: flex;
   border-radius: 5px;
   padding: 10px 50px;
@@ -270,7 +249,7 @@ font-size: 30px;
   font-weight: 200;
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  background: linear-gradient(to right,#e81922 50%, transparent 50%);
+  background: linear-gradient(to right, #e81922 50%, transparent 50%);
   background-size: 200% 100%;
   background-position: right bottom;
   transition: all 0.5s ease-out;
@@ -287,13 +266,10 @@ font-size: 30px;
   margin-top: 3%;
 }
 
-.btn:hover{
+.btn:hover {
   color: #fff;
   background-position: left bottom;
 }
-
-
-
 
 /* ======================================section end================================ */
 /* -----------------------------------footer start----------------------- */
@@ -306,41 +282,35 @@ footer {
   align-items: center;
   width: 100%;
   height: 40vh;
-  background-image: linear-gradient(
-    to left,
-    rgb(24, 18, 18),
-    rgb(0, 0, 0)
-  );
+  background-image: linear-gradient(to left, rgb(24, 18, 18), rgb(0, 0, 0));
   border-radius: 15px 15px 0px 0px;
   color: rgb(255, 255, 255);
   padding-left: 12%;
 }
 
-
 footer .h3 {
   text-align: center;
 }
-.div1{
+.div1 {
   margin: 6px 10%;
   justify-items: center;
   align-items: center;
 }
-.div1 h2{
+.div1 h2 {
   text-align: center;
   color: rgb(240, 239, 239);
   font-size: 30px;
   padding: 10px 0;
 }
-#alldiv1 .h3{
+#alldiv1 .h3 {
   margin: 5px 0;
 }
 #alldiv1 .h3 a {
   text-decoration: none;
-  color: rgb(148, 147, 147);
-  font-size: 17px;
+  color: rgb(194, 193, 193);
+  font-size: 18px;
   text-align: center;
   font-weight: 600;
-  
 }
 #alldiv1 a {
   text-decoration: none;
@@ -348,14 +318,13 @@ footer .h3 {
   font-size: 18px;
   text-align: center;
   margin: 0 5px;
-  
 }
-#alldiv1 a:hover{
-text-decoration: underline;
+#alldiv1 a:hover {
+  text-decoration: underline;
 }
 
 /* --------------------icon----------------------- */
-.icons{
+.icons {
   margin-left: 65px;
   margin-top: 10px;
 }
@@ -376,7 +345,7 @@ text-decoration: underline;
   color: #000f80;
   rotate: 360deg;
 }
-.contact{
+.contact {
   text-align: center;
   font-weight: 900;
   font-size: 27px;
@@ -395,7 +364,4 @@ span {
   font-weight: 900;
 }
 
-
-
-
- /* ================================header end ============================= */
+/* ================================header end ============================= */
