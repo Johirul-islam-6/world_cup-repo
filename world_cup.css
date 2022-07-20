@@ -262,33 +262,35 @@ header {
 .btn {
   display: flex;
   border-radius: 5px;
-  padding: 10px 50px;
-  border: 1px solid #393939;
-  color: #ffffff;
-  font-weight: 200;
+  padding: 15px 13px;
+  border: 1px solid #f5f2f2;
+  color: #ffffffe5;
+  font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  background: linear-gradient(to right, #e81922 50%, transparent 50%);
+  background: linear-gradient(to right, #ffffff 50%, transparent 50%);
+  background-color: #e81922;
   background-size: 200% 100%;
   background-position: right bottom;
   transition: all 0.5s ease-out;
   text-decoration: none;
-  margin-top: 100px;
+ 
   font-size: 15px;
-  background-color: rgb(255, 255, 255);
-  margin-top: 20px;
-  width: 150px;
-  margin: 1px auto;
+  cursor: pointer;
+  width: 200px;
   text-align: center;
-  font-size: 18px;
-  color: rgb(255, 255, 255);
-  margin-top: 3%;
-  background-color: rgba(100, 99, 99, 0.655);
+  margin: 10px auto;
+  justify-items: center;
+  justify-content: center;
+  font-size: 20px;
+  margin-top: 40px;
+
 }
 
 .btn:hover {
-  color: #fff;
+  color: rgb(0, 0, 0);
   background-position: left bottom;
+  border: 1px solid rgb(88, 88, 88);
 }
 
 /* ======================================section end================================ */
