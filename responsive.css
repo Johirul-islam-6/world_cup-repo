@@ -313,6 +313,9 @@
   #grid-item02 {
     display: none;
   }
+  .btn{
+    display: none;
+  }
   .btn-nav {
     width: 60%;
     height: 6rem;
@@ -377,6 +380,9 @@
     border-radius: 15px 15px 0px 0px;
     color: rgb(255, 255, 255);
     padding-left: 12%;
+  }
+  .btn{
+    display: none;
   }
   .btn-nav {
     display: none;
