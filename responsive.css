@@ -82,7 +82,6 @@
     display: none;
   }
 
-
   .main-img img {
     width: 100%;
     height: 100%;
@@ -176,8 +175,8 @@
     justify-content: center;
     display: flex;
     align-items: center;
-    margin: 0 auto;
     border-radius: 10px 0 10px 0;
+    margin-top: 25% !important;
   }
   .btn-nav li {
     display: inline-block;
@@ -211,7 +210,7 @@
     grid-auto-flow: dense;
   }
   .section01 {
-    margin-top: 20%;
+    margin-top: 5%;
   }
   #grid-item {
     justify-items: center;
@@ -248,8 +247,7 @@
     align-items: center;
     margin: 0px auto;
     border-radius: 10px 0 10px 0;
-    margin-top: 20px;
-    margin-top: 40px;
+    margin-top: 5%;
   }
   .btn-nav li {
     display: inline-block;
@@ -295,6 +293,7 @@
     grid-column-gap: 5px;
     grid-row-gap: 30px;
     grid-auto-flow: dense;
+    margin-top: 6% !important;
   }
   .section01 {
     margin-top: 10% !important;
@@ -312,27 +311,32 @@
   #grid-item02 {
     display: none;
   }
-  .btn{
+  .btn {
     display: none;
   }
   .btn-nav {
-    width: 60%;
-    height: 6rem;
+    width: 50%;
+    height: 7rem;
     background-color: none;
     justify-content: center;
-    display: flex !important;
+    display: grid !important;
+    grid-template-columns: repeat(1, 1fr);
     align-items: center;
     margin: 0 auto;
     border-radius: 10px 0 10px 0;
     margin-bottom: 30px;
+    margin-top: 5% !important;
   }
   .btn-nav li {
     display: inline-block;
     margin: 4px 5px;
-    background-color: #000000;
-    padding: 10px 25px;
-    border-radius: 5px 0 5px 0;
+    background-color: unset;
+    padding: 10px 30px;
+    border-radius: 8px 0 8px 0;
     cursor: pointer;
+    justify-content: center !important;
+    border: 2px outset rgb(52, 52, 52);
+  
   }
   .btn-nav .li {
     background-color: #f40101;
@@ -341,10 +345,10 @@
     color: #fff !important  ;
   }
   .btn-nav li a {
-    color: rgb(255, 255, 255);
+    color: rgb(37, 37, 37);
     text-decoration: none;
-    font-size: 12px;
-    font-weight: 600;
+    font-size: 15px;
+    font-weight: 900;
     text-align: center;
   }
 }
@@ -380,7 +384,7 @@
     color: rgb(255, 255, 255);
     padding-left: 12%;
   }
-  .btn{
+  .btn {
     display: none;
   }
   .btn-nav {
@@ -397,3 +401,4 @@
     margin-top: 10px;
   }
 }
+/* ----------------------midil btn responsive------------------------------ */
